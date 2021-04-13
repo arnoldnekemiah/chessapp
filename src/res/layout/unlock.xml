@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable-hdpi-v4/alert_border.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="1dp" android:layout_weight="{4:1073741824}">
+			<TextView android:textColor="ffffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="0x10" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="1dp" android:layout_weight="{4:1065353216}">
+			<Button android:textColor="ffffffff" android:layout_gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="40dp" android:soundEffectsEnabled="false" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

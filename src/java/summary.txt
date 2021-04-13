@@ -1,0 +1,204 @@
+Summary for /storage/emulated/0/show-java/sources/com.jetstartgames.chess/jar-files/3.jar
+Decompiled with CFR 0.0
+
+
+a.i.r.c
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl10 : ALOAD_0 : trying to set 1 previously set to 0
+
+
+a.i.r.n.b.b
+----------------------------
+
+b(android.content.Intent int a.i.r.n.b.e )
+  Unable to fully structure code
+
+
+a.i.r.n.b.e
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+a.i.r.n.c.b
+----------------------------
+
+a(a.i.r.p.j[] )
+  Unable to fully structure code
+
+
+a.i.r.p.l
+----------------------------
+
+a(a.g.a.f.e java.lang.Object )
+  Unable to fully structure code
+
+
+a.i.r.q.l.a
+----------------------------
+
+a(java.util.concurrent.Future<V> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl3 : FAKE_TRY : trying to set 1 previously set to 0
+a(a.i.r.q.l.a$i )
+  Unable to fully structure code
+a(java.lang.StringBuilder )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl54 : ALOAD_1 : trying to set 1 previously set to 0
+toString()
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.aa
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.g3
+----------------------------
+
+muteThisAd(com.google.android.gms.ads.MuteThisAdReason )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.h5
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.m5
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.n5
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.p5
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.p7
+----------------------------
+
+muteThisAd(com.google.android.gms.ads.MuteThisAdReason )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.pb
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.re
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.t9
+----------------------------
+
+onRewarded(com.google.android.gms.ads.reward.mediation.MediationRewardedVideoAdAdapter com.google.android.gms.ads.reward.RewardItem )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.w8
+----------------------------
+
+a(java.lang.Throwable java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl71 : NEW : trying to set 1 previously set to 0
+
+
+c.b.b.a.e.a.ye
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.z4
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.a.z6
+----------------------------
+
+a(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.b.d
+----------------------------
+
+a(int android.os.Parcel )
+  Loose catch block
+
+
+c.b.b.a.e.d.c5
+----------------------------
+
+a(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl10 : ILOAD_1 : trying to set 1 previously set to 0
+
+
+c.b.b.a.e.d.d3
+----------------------------
+
+b(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 6[CATCHBLOCK]
+
+
+c.b.b.a.e.d.e7
+----------------------------
+
+<init>(c.b.b.a.e.d.u6 java.lang.String java.lang.Object[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl56 : ILOAD : trying to set 1 previously set to 0
+
+
+c.b.b.a.e.d.g8
+----------------------------
+
+a(java.lang.CharSequence byte[] int int )
+  Unable to fully structure code
+
+
+c.b.b.a.e.d.g
+----------------------------
+
+a()
+  Unable to fully structure code
+
+
+c.b.b.a.e.d.h3
+----------------------------
+
+a()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+c.b.b.a.e.d.n6
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl23 : ALOAD_1 : trying to set 1 previously set to 0

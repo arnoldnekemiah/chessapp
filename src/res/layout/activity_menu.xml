@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/bg2.xml" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:orientation="1" android:id="false" android:background="b4000" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+		<TextView android:textSize="30dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="CHESS" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<ScrollView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<RelativeLayout android:id="false" android:background="8cffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp">
+				<TextView android:textSize="20dp" android:textColor="ff000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="SELECT LEVEL" android:layout_centerHorizontal="true" />
+				<HorizontalScrollView android:id="false" android:paddingTop="10dp" android:paddingBottom="10dp" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2" android:measureAllChildren="false" android:fillViewport="true" android:layout_below="false">
+					<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:soundEffectsEnabled="false" android:onClick="l100Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="PUZZLE" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:soundEffectsEnabled="false" android:onClick="l1Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="BEGINNER
+LEVEL" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:soundEffectsEnabled="false" android:onClick="l2Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="EASY
+LEVEL" android:layout_toLeftOf="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/lock.png" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:soundEffectsEnabled="false" android:onClick="l3Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="MIDDLE
+LEVEL" android:layout_toLeftOf="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/lock.png" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:soundEffectsEnabled="false" android:onClick="l4Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="HARD
+LEVEL" android:layout_toLeftOf="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/lock.png" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:text="ADVANCED
+LEVEL" android:soundEffectsEnabled="false" android:onClick="l5Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="ADVANCED
+LEVEL" android:layout_toLeftOf="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/lock.png" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:text="EXPERT
+LEVEL" android:soundEffectsEnabled="false" android:onClick="l6Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="EXPERT
+LEVEL" android:layout_toLeftOf="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/lock.png" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:text="CANDIDATE
+MASTER" android:soundEffectsEnabled="false" android:onClick="l7Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="CANDIDATE
+MASTER" android:layout_toLeftOf="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/lock.png" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:text="MASTER
+LEVEL" android:soundEffectsEnabled="false" android:onClick="l8Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="MASTER
+LEVEL" android:layout_toLeftOf="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/lock.png" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:text="GRAND
+MASTER" android:soundEffectsEnabled="false" android:onClick="l9Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="GRAND
+MASTER" android:layout_toLeftOf="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/lock.png" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:text="CHAMPION
+LEVEL" android:soundEffectsEnabled="false" android:onClick="l10Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="CHAMPION
+LEVEL" android:layout_toLeftOf="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-hdpi-v4/lock.png" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+							<RelativeLayout android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/star_0.xml" android:visibility="1" android:layout_width="23dp" android:layout_height="46dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+						</RelativeLayout>
+						<RelativeLayout android:textColor="ffffffff" android:id="false" android:background="c8000" android:padding="0dp" android:clickable="true" android:layout_width="133dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="0dp" android:layout_marginRight="10dp" android:layout_marginBottom="0dp" android:text="TWO
+PLAYERS" android:soundEffectsEnabled="false" android:onClick="l50Clicked">
+							<TextView android:textSize="12dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="5dp" android:text="TWO
+PLAYERS" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+						</RelativeLayout>
+					</LinearLayout>
+				</HorizontalScrollView>
+			</RelativeLayout>
+		</RelativeLayout>
+	</ScrollView>
+	<LinearLayout android:gravity="0x1" android:orientation="0" android:id="false" android:background="res/drawable/xml_button_promo_vert.xml" android:padding="0dp" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp" android:weightSum="{4:1092616192}" android:layout_above="false" android:onClick="promClicked">
+		<LinearLayout android:gravity="0x1" android:orientation="0" android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="5dp" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:background="res/drawable-hdpi-v4/checkers_icon.png" android:layout_width="35dp" android:layout_height="35dp" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:layout_marginRight="5dp" android:layout_marginBottom="2dp" android:layout_weight="{4:1091567616}">
+			<TextView android:textSize="20dp" android:textColor="ff000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0dp" android:text="CHECKERS" />
+			<TextView android:textSize="10dp" android:textColor="ff000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="You can try another of our games" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1077936128}" android:layout_alignParentBottom="true" android:layout_centerVertical="true">
+		<Button android:textSize="30dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_button_play.xml" android:padding="5dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="PLAY" android:layout_weight="{4:1065353216}" android:soundEffectsEnabled="false" android:onClick="playClicked" />
+		<Button android:textSize="12dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_button_settings.xml" android:padding="5dp" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="SETTINGS" android:layout_weight="{4:1073741824}" android:soundEffectsEnabled="false" android:onClick="setClicked" />
+	</LinearLayout>
+</RelativeLayout>

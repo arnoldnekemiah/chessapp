@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/bg2.xml" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+			<view android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_centerHorizontal="true" class="com.jetstartgames.logic.ChessBoardPlay" />
+		</RelativeLayout>
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:background="b4000" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="0dp" android:layout_alignParentTop="true" android:soundEffectsEnabled="false">
+		<TextView android:textSize="18dp" android:textColor="ffffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0dp" android:text="CHECKERS" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="13dp" android:textColor="ffffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginBottom="6dp" android:text="CHECKERS" android:layout_below="false" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="12dp" android:layout_above="false">
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="48dp" android:weightSum="{4:1084227584}">
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<Button android:id="false" android:background="res/drawable/xml_btn_new2.xml" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:soundEffectsEnabled="false" android:onClick="newGamePressed" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<Button android:id="false" android:background="res/drawable/xml_btn_undo2.xml" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:soundEffectsEnabled="false" android:onClick="backClicked" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<Button android:id="false" android:background="res/drawable/xml_btn_info2.xml" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:soundEffectsEnabled="false" android:onClick="infoPressed" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<Button android:id="false" android:background="res/drawable/xml_btn_hint2.xml" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:soundEffectsEnabled="false" android:onClick="hintPressed" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+				<Button android:id="false" android:background="res/drawable/xml_btn_menu2.xml" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:soundEffectsEnabled="false" android:onClick="menuClicked" />
+			</LinearLayout>
+		</LinearLayout>
+	</RelativeLayout>
+	<TextView android:textAppearance="{2:16842817}" android:textSize="17dp" android:textColor="b4ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable-hdpi-v4/info.jpg" android:padding="3dp" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:text="info" android:layout_alignParentBottom="true" />
+	<RelativeLayout android:id="false" android:background="a0000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:onClick="waitPressed" />
+	<RelativeLayout android:id="false" android:background="0000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:onClick="viewPressed" />
+</RelativeLayout>

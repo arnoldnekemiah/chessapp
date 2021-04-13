@@ -1,0 +1,38 @@
+/*
+ * Decompiled with CFR 0.0.
+ * 
+ * Could not load the following classes:
+ *  c.b.b.a.e.a.f2
+ *  c.b.b.a.e.a.k3
+ *  c.b.b.a.e.a.l3
+ *  c.b.b.a.e.a.o2
+ *  com.google.android.gms.ads.formats.NativeCustomTemplateAd
+ *  com.google.android.gms.ads.formats.NativeCustomTemplateAd$OnCustomClickListener
+ *  java.lang.String
+ */
+package c.b.b.a.e.a;
+
+import c.b.b.a.e.a.f2;
+import c.b.b.a.e.a.k3;
+import c.b.b.a.e.a.l3;
+import c.b.b.a.e.a.o2;
+import com.google.android.gms.ads.formats.NativeCustomTemplateAd;
+
+public final class n3
+extends o2 {
+    public final /* synthetic */ l3 a;
+
+    public /* synthetic */ n3(l3 l32, k3 k32) {
+        this.a = l32;
+    }
+
+    public final void a(f2 f22, String string) {
+        l3 l32 = this.a;
+        NativeCustomTemplateAd.OnCustomClickListener onCustomClickListener = l32.b;
+        if (onCustomClickListener == null) {
+            return;
+        }
+        onCustomClickListener.onCustomClick(l32.a(f22), string);
+    }
+}
+

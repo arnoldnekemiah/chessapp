@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+	<view android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_centerHorizontal="true" class="com.jetstartgames.logic.ChessBoardPlay" />
+	<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="75dp" android:layout_height="-2" android:layout_centerVertical="true">
+			<Button android:id="false" android:background="res/drawable/xml_btn_menu2.xml" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="245760unknown unit:0x21" android:layout_marginTop="15dp" android:layout_marginRight="245760unknown unit:0x21" android:layout_marginBottom="23dp" android:soundEffectsEnabled="false" android:onClick="menuClicked" />
+			<Button android:id="false" android:background="res/drawable/xml_btn_new2.xml" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="245760unknown unit:0x21" android:layout_marginRight="245760unknown unit:0x21" android:soundEffectsEnabled="false" android:onClick="newGamePressed" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="75dp" android:layout_height="-2" android:layout_centerVertical="true">
+			<Button android:id="false" android:background="res/drawable/xml_btn_undo2.xml" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="245760unknown unit:0x21" android:layout_marginTop="15dp" android:layout_marginRight="245760unknown unit:0x21" android:layout_marginBottom="23dp" android:soundEffectsEnabled="false" android:onClick="backClicked" />
+			<Button android:id="false" android:background="res/drawable/xml_btn_info2.xml" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="245760unknown unit:0x21" android:layout_marginRight="245760unknown unit:0x21" android:layout_marginBottom="23dp" android:soundEffectsEnabled="false" android:onClick="infoPressed" />
+			<Button android:id="false" android:background="res/drawable/xml_btn_hint2.xml" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="245760unknown unit:0x21" android:layout_marginRight="245760unknown unit:0x21" android:soundEffectsEnabled="false" android:onClick="hintPressed" />
+		</LinearLayout>
+	</RelativeLayout>
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	<RelativeLayout android:id="false" android:background="a0000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:onClick="waitPressed" />
+	<RelativeLayout android:id="false" android:background="0000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:onClick="viewPressed" />
+</RelativeLayout>

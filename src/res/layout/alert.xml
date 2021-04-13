@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="res/drawable-hdpi-v4/alert_border.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<View android:id="false" android:background="res/drawable-hdpi-v4/warning_undo.png" android:visibility="1" android:layout_width="30dp" android:layout_height="25dp" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:layout_alignParentLeft="true" />
+		<TextView android:textColor="ffffffff" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2dp" android:layout_marginBottom="10dp" android:layout_toLeftOf="false" android:layout_toRightOf="false" />
+		<Button android:textColor="ffffffff" android:gravity="0x5" android:id="false" android:background="res/drawable/xml_view.xml" android:visibility="1" android:layout_width="40dp" android:layout_height="28dp" android:layout_marginTop="2dp" android:layout_marginRight="5dp" android:layout_alignParentRight="true" android:soundEffectsEnabled="false" />
+	</RelativeLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="false">
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="false">
+			<TextView android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="60dp" android:layout_marginTop="10dp" android:layout_below="false">
+		<Button android:textSize="15dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_button_blue.xml" android:visibility="2" android:layout_width="0dp" android:layout_height="50dp" android:layout_marginLeft="1dp" android:layout_marginTop="10dp" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}" android:soundEffectsEnabled="false" />
+		<Button android:textSize="15dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_button_neutral.xml" android:visibility="2" android:layout_width="0dp" android:layout_height="50dp" android:layout_marginLeft="1dp" android:layout_marginTop="10dp" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}" android:soundEffectsEnabled="false" />
+		<RelativeLayout android:id="false" android:visibility="2" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="{4:1065353216}">
+			<Button android:textSize="15dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_button_neutral.xml" android:layout_width="-1" android:layout_height="50dp" android:layout_marginLeft="1dp" android:layout_marginTop="10dp" android:layout_marginRight="1dp" android:soundEffectsEnabled="false" />
+			<ImageView android:id="false" android:layout_width="45dp" android:layout_height="30dp" android:src="res/drawable-hdpi-v4/icon_ad.png" />
+		</RelativeLayout>
+		<Button android:textSize="15dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_button_green.xml" android:visibility="2" android:layout_width="0dp" android:layout_height="50dp" android:layout_marginLeft="1dp" android:layout_marginTop="10dp" android:layout_marginRight="1dp" android:layout_weight="{4:1065353216}" android:soundEffectsEnabled="false" />
+	</LinearLayout>
+</RelativeLayout>

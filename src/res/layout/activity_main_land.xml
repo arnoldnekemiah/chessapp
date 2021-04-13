@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+	<view android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_centerHorizontal="true" class="com.jetstartgames.logic.ChessBoardPlay" />
+	<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="50dp" android:layout_height="-2" android:layout_centerVertical="true">
+			<Button android:textSize="15dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_btn_menu2.xml" android:paddingLeft="5dp" android:paddingTop="8dp" android:paddingRight="5dp" android:paddingBottom="8dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginRight="5dp" android:layout_marginBottom="15dp" android:text="" android:soundEffectsEnabled="false" android:onClick="menuClicked" style="{2:16842825}" />
+			<Button android:textSize="15dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_btn_new2.xml" android:paddingLeft="5dp" android:paddingTop="8dp" android:paddingRight="5dp" android:paddingBottom="8dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="" android:soundEffectsEnabled="false" android:onClick="newGamePressed" style="{2:16842825}" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="50dp" android:layout_height="-2" android:layout_centerVertical="true">
+			<Button android:textSize="15dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_btn_undo2.xml" android:paddingLeft="5dp" android:paddingTop="8dp" android:paddingRight="5dp" android:paddingBottom="8dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginRight="5dp" android:layout_marginBottom="15dp" android:text="" android:soundEffectsEnabled="false" android:onClick="backClicked" style="{2:16842825}" />
+			<Button android:textSize="15dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_btn_info2.xml" android:paddingLeft="5dp" android:paddingTop="8dp" android:paddingRight="5dp" android:paddingBottom="8dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="15dp" android:text="" android:soundEffectsEnabled="false" android:onClick="infoPressed" style="{2:16842825}" />
+			<Button android:textSize="15dp" android:textColor="ffffffff" android:id="false" android:background="res/drawable/xml_btn_hint2.xml" android:paddingLeft="5dp" android:paddingTop="8dp" android:paddingRight="5dp" android:paddingBottom="8dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="" android:soundEffectsEnabled="false" android:onClick="hintPressed" style="{2:16842825}" />
+		</LinearLayout>
+	</RelativeLayout>
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	<RelativeLayout android:id="false" android:background="a0000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:onClick="waitPressed" />
+	<RelativeLayout android:id="false" android:background="0000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:onClick="viewPressed" />
+</RelativeLayout>

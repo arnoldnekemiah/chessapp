@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="ff000" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="ff000" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="false">
+			<TextView android:textColor="ffffffff" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+		</LinearLayout>
+		<Button android:textColor="ffffffff" android:gravity="0x5" android:id="false" android:background="res/drawable/xml_view.xml" android:layout_width="40dp" android:layout_height="28dp" android:layout_marginTop="9dp" android:layout_marginRight="9dp" android:layout_alignParentRight="true" android:soundEffectsEnabled="false" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1073741824}">
+			<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:background="res/drawable/xml_button_promote.xml" android:padding="5dp" android:clickable="true" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" android:soundEffectsEnabled="false">
+				<View android:id="false" android:background="res/drawable-hdpi-v4/bonus.png" android:padding="5dp" android:layout_width="70dp" android:layout_height="70dp" />
+				<TextView android:textSize="16dp" android:textColor="ff000" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:text="DAILY REWARD" android:textAllCaps="true" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:background="res/drawable/xml_button_reward.xml" android:padding="5dp" android:clickable="true" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" android:soundEffectsEnabled="false">
+				<View android:id="false" android:background="res/drawable-hdpi-v4/film_button.png" android:padding="5dp" android:layout_width="70dp" android:layout_height="70dp" />
+				<TextView android:textSize="16dp" android:textColor="ffffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:text="Watch a video" android:textAllCaps="true" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
